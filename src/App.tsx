@@ -1,4 +1,4 @@
-import Header from './components/Header';
+import Header, { scrollToId } from './components/Header';
 import Hero from './components/Hero';
 import Highlights from './components/Highlights';
 import About from './components/About';
@@ -13,33 +13,8 @@ import CookieBanner from './components/CookieBanner';
 import StructuredData from './components/StructuredData';
 
 export default function App() {
-  const scrollToSection = (id: string) => {
-    // Strip '#' character if present
-    const cleanId = id.startsWith('#') ? id.substring(1) : id;
-
-    if (cleanId === 'home') {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-      return;
-    }
-
-    const target = document.getElementById(cleanId);
-    if (target) {
-      // Provide comfortable breathing room so the sticky header does not cover section headings.
-      // Sub-sections inside the menu also account for the sticky quick-jump bar.
-      const isMenuSubSection = ['hot-drinks', 'cold-drinks', 'breakfast', 'lunch', 'bakery'].includes(cleanId);
-      const offset = isMenuSubSection ? 140 : 95;
-      const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
-      const offsetPosition = Math.max(0, elementPosition - offset);
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-  };
+  // Same reliable scrolling as the header (sections use scroll-mt spacing)
+  const scrollToSection = scrollToId;
 
   const handleBookClick = () => {
     // Scrolls to the interactive reservation booking engine or contact section
