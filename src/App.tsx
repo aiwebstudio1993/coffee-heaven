@@ -1,6 +1,5 @@
 import Header, { scrollToId } from './components/Header';
 import Hero from './components/Hero';
-import Highlights from './components/Highlights';
 import About from './components/About';
 import MenuSection from './components/MenuSection';
 import BookingForm from './components/BookingForm';
@@ -44,9 +43,6 @@ export default function App() {
       <main>
         {/* Full screen hero banner */}
         <Hero onBookClick={handleBookClick} onViewMenuClick={handleViewMenuClick} />
-
-        {/* Feature cards (organic ingredients, roasted weekly, fresh baking, dogs) */}
-        <Highlights />
 
         {/* Café Split Screen Story & Stats counters */}
         <About />
