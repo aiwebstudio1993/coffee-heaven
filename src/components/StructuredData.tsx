@@ -8,18 +8,18 @@ export default function StructuredData() {
       '@graph': [
         {
           '@type': 'Restaurant',
-          '@id': 'https://coffeeheavenstafford.co.uk/#restaurant',
+          '@id': 'https://coffee-heaven-8hch.vercel.app/#restaurant',
           'name': 'Coffee Heaven',
           'image': '/images/hero_coffee_pour_1791376059674.jpg',
           'priceRange': '££',
           'servesCuisine': 'Artisan Coffee, Breakfast, Brunch, Homemade Lunch, Pastries, Cakes',
-          'telephone': '+441785123456',
-          'url': 'https://coffeeheavenstafford.co.uk',
+          'telephone': '+447700900461',
+          'url': 'https://coffee-heaven-8hch.vercel.app',
           'address': {
             '@type': 'PostalAddress',
-            'streetAddress': '125 Market Street',
+            'streetAddress': '14 Tannery Lane',
             'addressLocality': 'Stafford',
-            'postalCode': 'ST16 2AB',
+            'postalCode': 'ST16',
             'addressCountry': 'GB',
           },
           'geo': {
@@ -27,7 +27,7 @@ export default function StructuredData() {
             'latitude': 52.8066,
             'longitude': -2.1165,
           },
-          'hasMap': 'https://google.com/maps?q=Coffee+Heaven+125+Market+Street+Stafford+ST16+2AB',
+          'hasMap': 'https://google.com/maps?q=Coffee+Heaven+Tannery+Lane+Stafford',
           'openingHoursSpecification': [
             {
               '@type': 'OpeningHoursSpecification',

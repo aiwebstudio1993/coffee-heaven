@@ -104,7 +104,7 @@ export default function ContactSection() {
 
                   {/* TikTok / Phone */}
                   <a
-                    href="tel:+441785123456"
+                    href="tel:+447700900461"
                     className="p-3 bg-white hover:bg-copper hover:text-white rounded-full border border-beige/50 text-walnut transition-all duration-200 shadow-sm hover:shadow-md"
                     aria-label="Call our front desk"
                   >
@@ -131,7 +131,7 @@ export default function ContactSection() {
                       </div>
                       <h3 className="font-serif text-2xl font-bold text-walnut">Message Received!</h3>
                       <p className="text-charcoal/80 text-sm max-w-md mx-auto">
-                        Thank you for reaching out to The Rustic Oak. One of our family hosts will get in touch with you shortly. Have a beautiful day!
+                        Thank you for reaching out to Coffee Heaven. One of our family hosts will get in touch with you shortly. Have a beautiful day!
                       </p>
                       <button
                         onClick={() => setContactSubmitted(false)}

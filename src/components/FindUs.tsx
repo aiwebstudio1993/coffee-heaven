@@ -34,8 +34,8 @@ export default function FindUs() {
                   <h4 className="font-serif font-bold text-walnut text-lg">Our Location</h4>
                   <p className="text-charcoal/80 text-sm mt-1 leading-relaxed">
                     Coffee Heaven<br />
-                    125 Market Street, Stafford<br />
-                    ST16 2AB, United Kingdom
+                    14 Tannery Lane, Stafford<br />
+                    ST16, United Kingdom
                   </p>
                 </div>
               </div>
@@ -48,10 +48,10 @@ export default function FindUs() {
                 <div>
                   <h4 className="font-serif font-bold text-walnut text-lg">Call Us</h4>
                   <a
-                    href="tel:+441785123456"
+                    href="tel:+447700900461"
                     className="text-copper hover:text-copper/80 hover:underline text-sm font-semibold mt-1 block"
                   >
-                    +44 (0) 1785 123456
+                    07700 900461
                   </a>
                   <span className="text-[10px] text-charcoal/50 uppercase tracking-wider block mt-0.5">
                     For bookings of 8+ or event inquiries
@@ -67,10 +67,10 @@ export default function FindUs() {
                 <div>
                   <h4 className="font-serif font-bold text-walnut text-lg">Email Address</h4>
                   <a
-                    href="mailto:hello@coffeeheaven.co.uk"
+                    href="mailto:hello@coffeeheavenstaffs.co.uk"
                     className="text-copper hover:text-copper/80 hover:underline text-sm font-semibold mt-1 block break-all"
                   >
-                    hello@coffeeheaven.co.uk
+                    hello@coffeeheavenstaffs.co.uk
                   </a>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default function FindUs() {
                 <path d="M -50,150 Q 200,160 650,140" fill="none" stroke="#E6D8C3" strokeWidth="24" strokeLinecap="round" />
                 <path d="M -50,150 Q 200,160 650,140" fill="none" stroke="#FFFFFF" strokeWidth="20" strokeLinecap="round" />
                 
-                {/* Market Street */}
+                {/* Tannery Lane */}
                 <path d="M 300,-50 L 300,450" fill="none" stroke="#E6D8C3" strokeWidth="20" strokeLinecap="round" />
                 <path d="M 300,-50 L 300,450" fill="none" stroke="#FFFFFF" strokeWidth="16" strokeLinecap="round" />
 
@@ -152,19 +152,19 @@ export default function FindUs() {
 
                 {/* Road Labels */}
                 <text x="180" y="175" fill="#2E2E2E" fillOpacity="0.6" fontSize="10" fontFamily="Inter" letterSpacing="1">A518 STATION ROAD</text>
-                <text x="312" y="350" fill="#2E2E2E" fillOpacity="0.6" fontSize="10" fontFamily="Inter" transform="rotate(90, 312, 350)" letterSpacing="1">MARKET STREET</text>
+                <text x="312" y="350" fill="#2E2E2E" fillOpacity="0.6" fontSize="10" fontFamily="Inter" transform="rotate(90, 312, 350)" letterSpacing="1">TANNERY LANE</text>
 
                 {/* Surrounding Places */}
                 {/* Stafford Train Station */}
                 <circle cx="80" cy="155" r="5" fill="#7B8B6A" />
                 <text x="92" y="159" fill="#2E2E2E" fillOpacity="0.8" fontSize="9" fontFamily="Inter" fontWeight="bold">Stafford Station (3 min walk)</text>
 
-                {/* Market Street Parking */}
+                {/* Tannery Lane Parking */}
                 <rect x="340" y="220" width="100" height="40" rx="8" fill="#F7F3EB" stroke="#E6D8C3" strokeWidth="1" />
                 <text x="390" y="237" textAnchor="middle" fill="#4B3425" fontSize="9" fontFamily="Inter" fontWeight="bold">P PARKWAY</text>
                 <text x="390" y="249" textAnchor="middle" fill="#2E2E2E" fillOpacity="0.5" fontSize="8" fontFamily="Inter">2-Min Walk</text>
 
-                {/* THE RUSTIC OAK CAFE */}
+                {/* COFFEE HEAVEN CAFE */}
                 {/* Pin Shadow */}
                 <ellipse cx="300" cy="155" rx="15" ry="6" fill="url(#pinShadow)" />
                 {/* Pulsing Beacon */}
@@ -196,7 +196,7 @@ export default function FindUs() {
                     <div className="flex justify-between items-start mb-4">
                       <div>
                         <h5 className="font-serif text-lg font-bold text-beige">Travel & Route Planner</h5>
-                        <p className="text-xs text-cream/70 mt-0.5">Stafford (ST16 2AB) via local travel nodes.</p>
+                        <p className="text-xs text-cream/70 mt-0.5">Stafford (ST16) via local travel nodes.</p>
                       </div>
                       <div className="flex space-x-1.5 bg-white/10 rounded-lg p-1">
                         <button
@@ -227,11 +227,11 @@ export default function FindUs() {
                           </div>
                           <div className="flex items-start space-x-3 text-xs leading-relaxed">
                             <span className="w-5 h-5 bg-sage text-white rounded-full flex items-center justify-center shrink-0 font-bold">2</span>
-                            <p className="text-cream/90">Cross the bridge and continue straight down <strong className="text-white">Market Street</strong> past the square.</p>
+                            <p className="text-cream/90">Cross the bridge and continue straight down <strong className="text-white">Tannery Lane</strong> past the square.</p>
                           </div>
                           <div className="flex items-start space-x-3 text-xs leading-relaxed">
                             <span className="w-5 h-5 bg-sage text-white rounded-full flex items-center justify-center shrink-0 font-bold">3</span>
-                            <p className="text-cream/90">The Rustic Oak Café is on your left, at number 125, next to the historic stone oak gate.</p>
+                            <p className="text-cream/90">Coffee Heaven is on your left, at number 14, next to the historic stone oak gate.</p>
                           </div>
                         </>
                       ) : (
@@ -242,11 +242,11 @@ export default function FindUs() {
                           </div>
                           <div className="flex items-start space-x-3 text-xs leading-relaxed">
                             <span className="w-5 h-5 bg-copper text-white rounded-full flex items-center justify-center shrink-0 font-bold">2</span>
-                            <p className="text-cream/90">We recommend parking at <strong className="text-white">Market Street Multi-Storey</strong> (1-min walk, free parking after 4:00pm).</p>
+                            <p className="text-cream/90">We recommend parking at <strong className="text-white">Tannery Lane car park</strong> (1-min walk, free parking after 4:00pm).</p>
                           </div>
                           <div className="flex items-start space-x-3 text-xs leading-relaxed">
                             <span className="w-5 h-5 bg-copper text-white rounded-full flex items-center justify-center shrink-0 font-bold">3</span>
-                            <p className="text-cream/90">Walk 150 yards North on Market Street. The cafe is fully wheelchair-accessible with flat-level entry doors.</p>
+                            <p className="text-cream/90">Walk 150 yards North on Tannery Lane. The cafe is fully wheelchair-accessible with flat-level entry doors.</p>
                           </div>
                         </>
                       )}

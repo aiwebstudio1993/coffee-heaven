@@ -55,7 +55,7 @@ export default function Footer({ onLinkClick }: FooterProps) {
             <div className="pt-2">
               <span className="text-xs uppercase font-mono text-copper tracking-wider font-semibold">Address:</span>
               <p className="text-xs text-cream/60 mt-1 leading-relaxed">
-                125 Market Street, Stafford, ST16 2AB
+                14 Tannery Lane, Stafford, ST16
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function Footer({ onLinkClick }: FooterProps) {
             <a href="#terms" className="hover:text-white transition-colors" onClick={(e) => e.preventDefault()}>Terms & Conditions</a>
             <a href="#cookies" className="hover:text-white transition-colors" onClick={(e) => e.preventDefault()}>Cookie Policy</a>
             <a
-              href="https://google.com/maps?q=Coffee+Heaven+125+Market+Street+Stafford+ST16+2AB"
+              href="https://google.com/maps?q=Coffee+Heaven+Tannery+Lane+Stafford"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors underline"

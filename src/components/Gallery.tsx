@@ -106,7 +106,7 @@ export default function Gallery() {
             className="inline-flex items-center space-x-2 text-copper hover:text-copper/80 font-semibold text-sm mt-2 transition-colors"
           >
             <Camera className="w-4 h-4" />
-            <span>@TheRusticOakStafford</span>
+            <span>@CoffeeHeavenStafford</span>
           </a>
         </div>
 
