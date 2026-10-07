@@ -1,0 +1,6 @@
+{
+  "name": "The Rustic Oak Café",
+  "description": "A modern, premium website for The Rustic Oak Café, an independent countryside-style café serving artisan coffee, homemade breakfast, lunches, and fresh pastries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
