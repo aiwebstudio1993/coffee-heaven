@@ -64,7 +64,7 @@ export default function About() {
             {/* Main Cafe Interior Image with Zoom on Hover */}
             <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-4/3 group">
               <img
-                src="/src/assets/images/rustic_modern_cafe_1791376119415.jpg"
+                src="/images/rustic_modern_cafe_1791376119415.jpg"
                 alt="Cozy sunlit rustic-modern interior of Coffee Heaven with reclaimed oak tables and warm pendant lights"
                 className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -86,7 +86,7 @@ export default function About() {
               className="absolute -bottom-8 -right-4 sm:-right-8 w-44 sm:w-60 aspect-square overflow-hidden rounded-2xl shadow-2xl border-4 border-white hidden sm:block group"
             >
               <img
-                src="/src/assets/images/artisan_coffee_detail_1791376072013.jpg"
+                src="/images/artisan_coffee_detail_1791376072013.jpg"
                 alt="Barista pouring steaming freshly brewed artisan coffee at Coffee Heaven"
                 className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
                 referrerPolicy="no-referrer"

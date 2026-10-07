@@ -330,35 +330,35 @@ export const reviewsData: Review[] = [
 export const galleryData: GalleryItem[] = [
   {
     id: 'g_beans',
-    imageUrl: '/src/assets/images/roasted_coffee_beans_1791378562938.jpg',
+    imageUrl: '/images/roasted_coffee_beans_1791378562938.jpg',
     alt: 'Freshly roasted single-origin Arabica coffee beans spilling from a burlap sack',
     category: 'coffee',
     title: 'Fresh Roasted Beans'
   },
   {
     id: 'g_machine',
-    imageUrl: '/src/assets/images/coffee_machine_espresso_1791378552261.jpg',
+    imageUrl: '/images/coffee_machine_espresso_1791378552261.jpg',
     alt: 'Polished commercial espresso machine pulling rich golden crema espresso into a ceramic cup',
     category: 'coffee',
     title: 'Artisan Espresso Machine'
   },
   {
     id: 'g_plate_brunch',
-    imageUrl: '/src/assets/images/cafe_breakfast_plate_1791378574786.jpg',
+    imageUrl: '/images/cafe_breakfast_plate_1791378574786.jpg',
     alt: 'Artisanal breakfast plate with poached eggs, smashed avocado on sourdough, and vine tomatoes',
     category: 'food',
     title: 'Smashed Avocado & Poached Eggs'
   },
   {
     id: 'g_bakery_display',
-    imageUrl: '/src/assets/images/fresh_bakery_cakes_1791378585999.jpg',
+    imageUrl: '/images/fresh_bakery_cakes_1791378585999.jpg',
     alt: 'Decadent bakery display with cinnamon swirl rolls, chocolate brownies, and cakes on a wooden board',
     category: 'dessert',
     title: 'Daily Handcrafted Bakes'
   },
   {
     id: 'g_pour',
-    imageUrl: '/src/assets/images/artisan_coffee_detail_1791376072013.jpg',
+    imageUrl: '/images/artisan_coffee_detail_1791376072013.jpg',
     alt: 'Barista hand-pouring steaming hot drip coffee into an earthenware mug',
     category: 'coffee',
     title: 'Hand-Poured Drip Coffee'
@@ -386,7 +386,7 @@ export const galleryData: GalleryItem[] = [
   },
   {
     id: 'g2',
-    imageUrl: '/src/assets/images/rustic_modern_cafe_1791376119415.jpg',
+    imageUrl: '/images/rustic_modern_cafe_1791376119415.jpg',
     alt: 'Cozy rustic wooden interior of Coffee Heaven with warm light',
     category: 'interior',
     title: 'Our Warm Interior'

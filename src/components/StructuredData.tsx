@@ -10,7 +10,7 @@ export default function StructuredData() {
           '@type': 'Restaurant',
           '@id': 'https://coffeeheavenstafford.co.uk/#restaurant',
           'name': 'Coffee Heaven',
-          'image': '/src/assets/images/hero_coffee_pour_1791376059674.jpg',
+          'image': '/images/hero_coffee_pour_1791376059674.jpg',
           'priceRange': '££',
           'servesCuisine': 'Artisan Coffee, Breakfast, Brunch, Homemade Lunch, Pastries, Cakes',
           'telephone': '+441785123456',

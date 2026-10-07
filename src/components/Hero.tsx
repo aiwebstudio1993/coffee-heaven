@@ -55,7 +55,7 @@ export default function Hero({ onBookClick, onViewMenuClick }: HeroProps) {
       {/* Immersive Hero Image */}
       <div className="absolute inset-0 z-0 bg-walnut">
         <img
-          src="/src/assets/images/hero_coffee_pour_1791376059674.jpg"
+          src="/images/hero_coffee_pour_1791376059674.jpg"
           alt="Classic artisan coffee getting smoothly poured into a handcrafted ceramic cup on a weathered oak wood table at Coffee Heaven"
           className="w-full h-full object-cover object-center filter brightness-[0.58] contrast-[1.05]"
           referrerPolicy="no-referrer"
