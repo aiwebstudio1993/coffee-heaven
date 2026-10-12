@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import MenuSection from './components/MenuSection';
 import BookingForm from './components/BookingForm';
+import PreOrder from './components/PreOrder';
 import Reviews from './components/Reviews';
 import Gallery from './components/Gallery';
 import FindUs from './components/FindUs';
@@ -49,6 +50,9 @@ export default function App() {
 
         {/* Beautiful Menus (Hot Drinks, Cold Drinks, Breakfast, Lunch, Bakery) */}
         <MenuSection onCategoryClick={scrollToSection} />
+
+        {/* Cake & treat box pre-orders with online deposit */}
+        <PreOrder />
 
         {/* Interactive Reservation engine */}
         <BookingForm />
